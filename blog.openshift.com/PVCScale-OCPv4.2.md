@@ -111,8 +111,6 @@ For all tested configurations (1500, 3000, 5000 pods/PVCs), it was possible to s
 
 ![Time to start Pods with PVC](./images/1.png)
 
-In the graph above we have information showing us how long it takes to start different number of pods with PVCs from the two OpenShift Container Storage  v4.2 storage classes.  From the above graph it is visible that pod’s startup time increases linearly and from the numbers we can conclude that it takes approximately 1.6s to start a pod with attached PVC ( Number of pods / total time ) 
-
 On a 9 node OpenShift Container Storage v4.2 cluster the requirement to scale up to 5000 PVC could easily be satisfied.  
 
 
